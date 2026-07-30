@@ -1,0 +1,25 @@
+# R session and user-local state
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# renv local package library and transient state
+renv/library/
+renv/staging/
+renv/python/
+renv/sandbox/
+
+# Generated Shinylive site output
+site/
+
+# App build and local scratch outputs
+outputs/
+tmp/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+

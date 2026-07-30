@@ -1,0 +1,19 @@
+Package: nzsuperpolicymodel
+Type: Project
+Title: NZ Retirement Policy Model
+Version: 1.0.0
+Description: R/Shiny scenario model for exploring selected New Zealand
+    Superannuation policy changes, including fiscal, cohort, and illustrative
+    person impacts. Supports local use and static Shinylive export.
+Encoding: UTF-8
+Imports:
+    bslib,
+    openxlsx2,
+    scales,
+    shiny,
+    zip
+Suggests:
+    httpuv,
+    readxl,
+    shinylive,
+    testthat
